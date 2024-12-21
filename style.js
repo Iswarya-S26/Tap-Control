@@ -16,7 +16,6 @@ function tabclick(event) {
     page.classList.remove("page-active");
   });
 
-  //event.target.parentElement.classList.add('active');
   event.target.parentElement.className += "active";
 
   let id = event.target.href.split("#")[1];
